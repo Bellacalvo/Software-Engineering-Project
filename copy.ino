@@ -23,6 +23,7 @@ void loop() {
   if (motionDetected) {
     if (!trigger) {
       digitalWrite(valvePin, HIGH);
+      delay(10000) #delay for to seconds so the valve will run
       digitalWrite(LED_1, HIGH);
       Serial.println("Motion has been detected! Light and Valve ON");
       trigger = true;
