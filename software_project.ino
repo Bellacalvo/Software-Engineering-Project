@@ -22,7 +22,7 @@ void setup() {
       Serial.print(".");
       delay(1000);
       }
-    Serial.println(The sensor is ready");
+    Serial.println("The sensor is ready");
     delay(50);
 }
 
